@@ -2,9 +2,9 @@
 
 Simple Rails app running in a Docker container.
 
-#### Build Docker Image
+#### Build Docker Images
 
-`docker build .`
+`docker-compose build`
 
 #### Install Ruby Gems
 
