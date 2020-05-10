@@ -16,11 +16,13 @@ RUN curl https://chromedriver.storage.googleapis.com/83.0.4103.39/chromedriver_l
 
 RUN chmod +x /usr/local/bin/chromedriver
 
+# RUN gem install rake
 RUN gem install bundler
 
 WORKDIR /usr/src/app
 
-COPY Gemfile Gemfile.lock .
+# COPY Gemfile Gemfile.lock ./
+COPY Gemfile ./
 
 ENV BUNDLE_PATH /gems
 
