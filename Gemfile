@@ -8,7 +8,10 @@ gem 'rails', '~> 6.0.3'
 gem 'pg'
 
 gem 'actionpack', '>= 6.0.3.2'
-gem 'activerecord-session_store'
+
+#gem 'activerecord-session_store'
+gem 'activerecord-session_store', github: 'rails-lts/activerecord-session_store', branch: 'secure-session-store'
+
 gem 'devise', '~> 4.4', '>= 4.4.1'
 gem 'jbuilder', '~> 2.7'
 gem 'puma', '~> 4.1'
