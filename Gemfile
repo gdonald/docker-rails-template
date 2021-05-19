@@ -14,7 +14,7 @@ gem 'activerecord-session_store', github: 'rails-lts/activerecord-session_store'
 
 gem 'devise', '~> 4.4', '>= 4.4.1'
 gem 'jbuilder', '~> 2.7'
-gem 'puma', '~> 4.1'
+gem 'puma', '~> 4.3'
 gem 'redis', '~> 4.0'
 gem 'sass-rails', '>= 6'
 gem 'turbolinks', '~> 5'
