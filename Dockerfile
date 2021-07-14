@@ -1,4 +1,4 @@
-FROM ruby:2.7.2-buster
+FROM ruby:2.7.4-buster
 
 RUN curl -sS https://dl.yarnpkg.com/debian/pubkey.gpg | apt-key add -
 
